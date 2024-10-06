@@ -1,6 +1,14 @@
+html{
+    /*   *****   Storing Colors In Variables   *****  */
+    --body-clr: #ffffff;
+    --primary-clr: #D81324;
+    --primary-light-clr: #eaf3fa;
+    --links-clr: #186f78;
+    --text-clr: #0B2154;
+  }
 .portfolio{
     width: 100%;
-    padding: 30px 8%;
+    padding: 0px 8%;
     background-color: var(--body-clr);
   }
   .portfolio .section-head{
@@ -12,7 +20,7 @@
     position: relative;
     font-size: 32px;
     margin: 10px 0px 30px;
-    color: var(--primary-clr);
+    color: var(--text-clr);
   }
   .button-group{
     text-align: center;
@@ -22,8 +30,8 @@
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background-color: #c8d1d8;
-    color: var(--primary-clr);
+    background-color: #F2F2F2;
+    color: var(--text-clr);
     font-style: 12px;
     font-weight: 800;
     text-transform: uppercase;
